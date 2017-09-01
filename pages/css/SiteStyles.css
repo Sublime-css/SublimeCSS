@@ -58,7 +58,8 @@ table {
 {
     font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     font-size: 2rem;
-    padding-top: 15rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -71,15 +72,31 @@ table {
 .siteName::first-line
 {
     font-size: 4rem;
-    line-height: 130%;0
+    line-height: 130%;
 }
 
 .innerlink
 {
     width: 90% !important;
     font-size: 1rem;
-
     line-height: 150%;
+}
+
+@media screen and (max-width: 425px)
+{
+    .innerlink
+    {
+        font-size: 0.7rem;
+    }
+    .sitename
+    {
+        font-size: 1.5rem;
+    }
+    
+    .sitename::first-line
+    {
+        font-size: 3rem;
+    }
 }
 
 .link
@@ -102,6 +119,8 @@ table {
     text-align: center;
     line-height: 110%;
     color: #fff;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
 }
 
 
@@ -113,4 +132,40 @@ h3.content
     margin-top: 1rem;
     margin-bottom: 1rem;
     
+}
+
+.lastElm {
+    padding-bottom: 3rem;
+}
+
+.gridExample {
+    border: 3px solid #f8f8f8;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+
+.sublimeExample {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h3.docContent, h4.docContent, h5.docContent {
+    text-align: left;
+    padding-left: 5%;
+    font-size: 1rem;
+}
+
+h3.docContent
+{
+    font-size: 2rem;
+}
+
+h4.docContent
+{
+    font-size: 1.5rem;
 }
