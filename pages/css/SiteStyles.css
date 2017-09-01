@@ -96,8 +96,9 @@ table {
     font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    box-sizing: border-box;
     text-align: center;
     line-height: 110%;
     color: #fff;
@@ -107,21 +108,9 @@ table {
 h3.content
 {
     font-size: 1.5rem;
-    border-bottom: 3px solid #111;
-    
-}
-
-@media screen and (min-width: 780px)
-{
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
