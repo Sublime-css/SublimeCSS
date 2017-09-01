@@ -58,25 +58,32 @@ table {
 {
     font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     font-size: 2rem;
-    margin-top: 12rem;
-    margin-bottom: 17rem;
+    padding-top: 15rem;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
     line-height: 110%;
     color: #fff;
+    height: 100vh;
 }
 
 .siteName::first-line
 {
     font-size: 4rem;
-    line-height: 130%;
+    line-height: 130%;0
 }
 
-#link
+.innerlink
 {
-    font-size: 1.5rem;
+    width: 90% !important;
+    font-size: 1rem;
+
+    line-height: 150%;
+}
+
+.link
+{
     background: rgb(50,50,50,);
     background: rgba(50,50,50,0.5);
     padding: 1%;
@@ -91,7 +98,6 @@ table {
     padding-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
-    width: 90%;
     text-align: center;
     line-height: 110%;
     color: #fff;
@@ -102,5 +108,20 @@ h3.content
 {
     font-size: 1.5rem;
     border-bottom: 3px solid #111;
+    
+}
+
+@media screen and (min-width: 780px)
+{
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 }
