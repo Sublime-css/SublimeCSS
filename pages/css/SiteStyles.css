@@ -59,8 +59,9 @@ table {
     font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     font-size: 2rem;
     padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     width: 90%;
+    box-sizing: content-box;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
@@ -82,29 +83,13 @@ table {
     line-height: 150%;
 }
 
-@media screen and (max-width: 425px)
-{
-    .innerlink
-    {
-        font-size: 0.7rem;
-    }
-    .sitename
-    {
-        font-size: 1.5rem;
-    }
-    
-    .sitename::first-line
-    {
-        font-size: 3rem;
-    }
-}
 
 .link
 {
-    background: rgb(50,50,50,);
-    background: rgba(50,50,50,0.5);
+    color: #fff;
     padding: 1%;
-    border: 3px solid rgb(50,50,50);
+    display: inline-block;
+    border-radius: 10px;
 }
 
 .content
@@ -175,3 +160,53 @@ h4.docContent
 {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 425px)
+{
+    .innerlink
+    {
+        font-size: 0.7rem;
+    }
+    .sitename
+    {
+        font-size: 1.5rem;
+    }
+    
+    .sitename::first-line
+    {
+        font-size: 3rem;
+    }
+    
+    h3.docContent
+    {
+        font-size: 2rem;
+    }
+    
+    .sublimeExample div, .sublimeExample a
+    {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.download
+{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1300px)
+{
+    .siteName
+    {
+        background-image: url(../img/Background-main.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 110%;
+        background-clip: border-box;
+        background-attachment: fixed;
+    }
+}
+
