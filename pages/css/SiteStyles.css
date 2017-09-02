@@ -47,9 +47,10 @@ table {
 
 /*Styles start*/
 
-html
+*
 {
-    width: 100vw !important;
+    max-width: 100vw !important;
+    box-sizing: border-box !important;
 }
 
 .pageHeader
@@ -230,4 +231,9 @@ h4.docContent
     color: #fff;
     font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     padding: 1rem;
+}
+
+.maincontent {
+    border-top: 6rem solid rgba(0,0,0,0.3);
+    border-top: 5rem solid rgba(0,0,0,0.3);
 }
