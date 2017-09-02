@@ -60,7 +60,7 @@ table {
     color: #fff;
 }
 
-.siteName
+.siteNameMain
 {
     font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     font-size: 2rem;
@@ -72,7 +72,7 @@ table {
     line-height: 110%;
     color: #fff;
     height: 100vh;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .siteName::first-line
@@ -208,7 +208,7 @@ h4.docContent
 
 @media screen and (min-width: 1300px)
 {
-    .siteName
+    .siteNameMain
     {
         background-image: url(../img/Background-main.jpg);
         background-repeat: no-repeat;
@@ -234,6 +234,5 @@ h4.docContent
 }
 
 .maincontent {
-    border-top: 6rem solid rgba(0,0,0,0.3);
-    border-top: 5rem solid rgba(0,0,0,0.3);
+
 }
