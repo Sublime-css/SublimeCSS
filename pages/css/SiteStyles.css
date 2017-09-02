@@ -60,10 +60,8 @@ table {
     font-size: 2rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    width: 90%;
+    width: 100%;
     box-sizing: content-box;
-    margin-left: 5%;
-    margin-right: 5%;
     text-align: center;
     line-height: 110%;
     color: #fff;
@@ -72,7 +70,7 @@ table {
 
 .siteName::first-line
 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 130%;
 }
 
@@ -174,7 +172,7 @@ h4.docContent
     
     .sitename::first-line
     {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
     
     h3.docContent
@@ -186,6 +184,10 @@ h4.docContent
     {
         font-size: 1rem;
         margin-top: 1rem;
+    }
+        .sublimeExample div
+    {
+        margin-top: 0rem;
     }
 }
 
@@ -207,9 +209,11 @@ h4.docContent
         background-size: 110%;
         background-clip: border-box;
         background-attachment: fixed;
-        margin-left: 0px;
-        margin-right: 0px;
         width: 100%;
+    }
+    .siteName::first-line
+    {
+        font-size: 0.1rem;
     }
 }
 
