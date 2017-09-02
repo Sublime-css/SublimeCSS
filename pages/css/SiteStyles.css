@@ -207,6 +207,9 @@ h4.docContent
         background-size: 110%;
         background-clip: border-box;
         background-attachment: fixed;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
 }
 
