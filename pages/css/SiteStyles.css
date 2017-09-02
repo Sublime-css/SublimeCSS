@@ -203,7 +203,7 @@ h4.docContent
     {
         background-image: url(../img/Background-main.jpg);
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position: 50% 60%;
         background-size: 110%;
         background-clip: border-box;
         background-attachment: fixed;
