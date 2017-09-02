@@ -11,6 +11,19 @@
         <link href="pages/css/SiteStyles.css" rel="stylesheet">
         <link href="code/css/sublime.css" rel="stylesheet">
         <title>SublimeCSS</title>
+        
+        <!--Google Analatics-->
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105795998-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        
     </head>
     
     <body>
@@ -67,28 +80,59 @@
                 
             </div>
             
-            <div class="documentation">
+            <div class="documentation content sublime-gridRow">
                 
-                <h3 class="content">Documentation:</h3>
-                <h4 class="content docContent">How to set up SublimeCSS:</h4>
-                <h5 class="content docContent">You can either click the "Download" link at the top of the page to download SublimeCSS, or you can simply link to it in the head of your document with the link shown at the top of the page. If you do choose to download it, then unzip the download, and move the SublimeCSS folder into your current project.</h5>
+                <h3 class="content docContent sublime-grid-15-15">Documentation:</h3>
                 
-                <h4 class="content docContent">How does SublimeCSS work?</h4>
-                <h5 class="content docContent">To use SublimeCSS, simply apply the appropriate class to an element, and SublimeCSS will work it's magic!</h5>
+                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                    <h4 class="content docContent">How to set up SublimeCSS:</h4>
+                    <h5 class="content docContent">You can either click the "Download" link at the top of the page to download SublimeCSS, or you can simply link to it in the head of your document with the link shown at the top of the page. If you do choose to download it, then unzip the download, and move the SublimeCSS folder into your current project.</h5>
+                </div>
                 
-                <h4 class="content docContent">What classes are avalible?</h4>
-                <h4 class="content docContent">Here is a compleat list of classes for V0.1. If you downloaded an older version, please head over to the "README.md" file supplied with your download. Note: SublimeCSS is forward compatible, so all older versions will always be suported, but may have less capability.</h4>
-                <h5 class="content docContent">Grids:<br><br>
-                    
-                    sublime-gridRow creates a row for grids that can contain grid elements.<br><br>
-                    
-                    sublime-grid-*-15, where * is a number from 1 to 15.<br><br>
-                    
-                    For example, sublime-grid-3-15 is a grid that is 3/15ths the width of the screen.<br><br>
-                    
-                    Note: all grids must be placed inside a sublime-gridRow div to function. Grids are designed to work with Div elements.
+                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                    <h4 class="content docContent">How does SublimeCSS work?</h4>
+                    <h5 class="content docContent">To use SublimeCSS, simply apply the appropriate class to an element, and SublimeCSS will work it's magic!</h5>
+                </div>
                 
-                </h5>
+                    <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                    <h4 class="content docContent">What classes are avalible?</h4>
+                    <h5 class="content docContent">Here is a compleat list of classes for V0.1. If you downloaded an older version, please head over to the "README.md" file supplied with your download. Note: SublimeCSS is forward compatible, so all older versions will always be suported, but may have less capability.</h5>
+                </div>
+                
+                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                    <h4 class="content docContent">Grid system:</h4>
+                        
+                        <h5 class="content docContent">
+                        sublime-gridRow creates a row for grids that can contain grid elements.<br><br>
+                        
+                        sublime-grid-*-15 creates a column, where * is a number from 1 to 15.<br><br>
+                        
+                        For example, sublime-grid-3-15 is a grid column that is 3/15ths the width of the screen.<br><br>
+                        
+                        Note: all grids must be placed inside a sublime-gridRow div to function. Grids are designed to work with Div elements.<br><br>
+                        
+                        Create responsive grids using media querys: for example, these documentation boxes are 5-15 on screens above md(medium), and 15-15 on smaller screens. The classes used are "sublime-grid-5-15 sublime-grid-md-15-15".
+                        
+                    </h5>
+                </div>
+                
+                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                    <h4 class="content docContent">Button system:</h4>
+                    
+                    <h5 class="content docContent">
+                        
+                        Buttons are very simple in SublimeCSS. Simply create an anchor elememt and apply the apropriate class. The options are:<br><br>
+                        <ul>
+                            
+                            <li>sublime-greyBtn -- a grey button</li>
+                            <li>sublime-yesBtn -- an affirmitive button</li>
+                            <li>sublime-noBtn -- a negitive button</li>
+                            <li>sublime-warningBtn -- an alarming button</li>
+                            
+                        </ul>
+                        
+                    </h5>
+                </div>
                 
             </div>
             
