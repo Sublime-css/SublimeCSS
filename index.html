@@ -1,171 +1,329 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<html lang="en" class="bg-blue">
-    <head>
-        
-        
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="CSS, Framework, HTML">
-        <meta name="author" content="Luka Simpson">
-        <meta name="description" content="SublimeCSS is a simple, lightweight and responsive CSS framework for the modern web.">
-        <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
-        <link href="pages/css/SiteStyles.css" rel="stylesheet">
-        <link href="code/css/sublime.css" rel="stylesheet">
-        <title>SublimeCSS</title>
-        
-        <!--Google Analatics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<html class="bg-blue" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="CSS, Framework, HTML" name="keywords">
+    <meta content="Luka Simpson" name="author">
+    <meta content="SublimeCSS is a simple, lightweight and responsive CSS framework for the modern web." name="description">
+    <link href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css" rel="stylesheet">
+    <link href="pages/css/SiteStyles.css" rel="stylesheet">
+    <link href="code/css/sublime.css" rel="stylesheet">
 
-  ga('create', 'UA-105795998-1', 'auto');
-  ga('send', 'pageview');
+    <title>SublimeCSS</title><!--Google Analatics-->
 
-</script>
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    </head>
-    
-    <body>
-        
-        <div class="siteNameMain">
-        <h1 class="siteName">SublimeCSS <br><br> A simple, lightweight and responsive CSS framework for the modern web. <br><br><br>
-            <a class="bg-navy download" href="releases/Sublime_V0.1_beta/computer/SublimeCSS.zip" download>Download V1.0.0</a> <br><br><br>
-            
-            
-            <span class="innerlink">&lt;link rel="stylesheet"</span>
-            <span class="innerlink lastElm">href="https://sublime-css.github.io/SublimeCSS/code/css/sublime.css"&gt;</span>
-            
-                
-        </h1>
+     ga('create', 'UA-105795998-1', 'auto');
+     ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <div class="siteNameMain">
+        <h1 class="siteName">SublimeCSS<br>
+        <br>
+        A simple, lightweight and responsive CSS framework for the modern web.</h1>
+        <br>
+        <br>
+        <a class="bg-navy download" href="releases/Sublime_V0.1_beta/computer/SublimeCSS.zip">Download V1.0.0</a><br>
+        <br>
+        <br>
+        <p class="link bg-navy">&lt;link rel="stylesheet" href="https://sublime-css.github.io/SublimeCSS/code/css/sublime.css"&gt;</p>
+        <br>
+        <br>
+    </div>
+
+
+    <div class="bg-navy maincontent">
+        <h2 class="content">Why use Sublime?</h2>
+
+
+        <div class="sublime-gridRow">
+            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue">SublimeCSS is style agnostic -- you make all the style choices.</h3>
+
+
+            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue">Style packs are planned for the future, to make styling eaiser.</h3>
+
+
+            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue">SublimeCSS is forward- compatible, so everything you write today will always be comatible with future updates.</h3>
+
+
+            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue">SublimeCSS is currently in beta, so updates will come steadily.</h3>
+
+
+            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue">SublimeCSS is lightweight and minimal, meaning shorter downloads and faster websites.</h3>
         </div>
-        
-        <div class="bg-navy maincontent">
-            <h2 class="content">Why use Sublime?</h2>
-            
+
+
+        <div class="sublimeExample">
+            <!--Standard Grids:-->
+
+
             <div class="sublime-gridRow">
-            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue"> SublimeCSS is style agnostic -- you make all the style choices.</h3>
-            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue"> Style packs are planned for the future, to make styling eaiser.</h2>
-            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue"> SublimeCSS is forward- compatible, so everything you write today will always be comatible with future updates.</h3>
-            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue"> SublimeCSS is currently in beta, so updates will come steadily.</h3>
-            <h3 class="content sublime-grid-md-15-15 sublime-grid-7-15 border--blue"> SublimeCSS is lightweight and minimal, meaning shorter downloads and faster websites.</h3>
+                <div class="sublime-grid-5-15 sublime-grid-md-15-15 gridExample">
+                    Non-Resopnsive Grids:
+                </div>
             </div>
-            
-            <div class="sublimeExample">
-                
-                <!--Standard Grids:-->
-                <div class="sublime-gridRow"><div class="sublime-grid-5-15 sublime-grid-md-15-15 gridExample">Non-Resopnsive Grids:</div></div><br><br>
-                <div class="sublime-gridRow"><div class="sublime-grid-1-15 gridExample">1-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-2-15 gridExample">2-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-3-15 gridExample">3-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-4-15 gridExample">4-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-5-15 gridExample">5-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-6-15 gridExample">6-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-7-15 gridExample">7-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-8-15 gridExample">8-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-9-15 gridExample">9-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-10-15 gridExample">10-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-11-15 gridExample">11-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-12-15 gridExample">12-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-13-15 gridExample">13-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-14-15 gridExample">14-15</div></div>
-                <div class="sublime-gridRow"><div class="sublime-grid-15-15 gridExample">15-15</div></div><br><br>
-                
-                <!--Responsive Grids:-->
-                <div class="sublime-gridRow"><div class="sublime-grid-5-15 sublime-grid-md-15-15 gridExample">Resopnsive Grids:</div></div>
-                
-                <div class="sublime-gridRow">
-                    
-                    <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">...</div>
+            <br>
+            <br>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-1-15 gridExample">
+                    1-15
                 </div>
-                
-                <div class="sublime-gridRow">
-                    
-                    <div class="sublime-grid-lg-5-15 sublime-grid-md-2-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-2-15 sublime-grid-md-4-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-4-15 sublime-grid-md-3-15 sublime-grid-sm-1-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-3-15 sublime-grid-md-1-15 sublime-grid-sm-7-15 gridExample">...</div>
-                    <div class="sublime-grid-lg-1-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">...</div>
-                </div>
-                
-                
             </div>
-            
-            <div class="sublime-gridRow sublimeExample">
-                
-                <div class="sublime-grid-15-15 gridExample">Buttons:</div>
-                <a class="sublime-yesBtn">Yes!</a>
-                <a class="sublime-noBtn">No!</a>
-                <a class="sublime-warningBtn">Warning!</a>
-                <a class="sublime-greyBtn">Grey!</a>
-                
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-2-15 gridExample">
+                    2-15
+                </div>
             </div>
-            
-            <div class="documentation content sublime-gridRow">
-                
-                <h3 class="content docContent sublime-grid-15-15">Documentation:</h3>
-                
-                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
-                    <h4 class="content docContent">How to set up SublimeCSS:</h4>
-                    <h5 class="content docContent">You can either click the "Download" link at the top of the page to download SublimeCSS, or you can simply link to it in the head of your document with the link shown at the top of the page. If you do choose to download it, then unzip the download, and move the SublimeCSS folder into your current project.</h5>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-3-15 gridExample">
+                    3-15
                 </div>
-                
-                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
-                    <h4 class="content docContent">How does SublimeCSS work?</h4>
-                    <h5 class="content docContent">To use SublimeCSS, simply apply the appropriate class to an element, and SublimeCSS will work it's magic!</h5>
-                </div>
-                
-                    <div class="sublime-grid-5-15 sublime-grid-md-15-15">
-                    <h4 class="content docContent">What classes are avalible?</h4>
-                    <h5 class="content docContent">Here is a compleat list of classes for V0.1. If you downloaded an older version, please head over to the "README.md" file supplied with your download. Note: SublimeCSS is forward compatible, so all older versions will always be suported, but may have less capability.</h5>
-                </div>
-                
-                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
-                    <h4 class="content docContent">Grid system:</h4>
-                        
-                        <h5 class="content docContent">
-                        sublime-gridRow creates a row for grids that can contain grid elements.<br><br>
-                        
-                        sublime-grid-*-15 creates a column, where * is a number from 1 to 15.<br><br>
-                        
-                        For example, sublime-grid-3-15 is a grid column that is 3/15ths the width of the screen.<br><br>
-                        
-                        Note: all grids must be placed inside a sublime-gridRow div to function. Grids are designed to work with Div elements.<br><br>
-                        
-                        Create responsive grids using media querys: for example, these documentation boxes are 5-15 on screens above md(medium), and 15-15 on smaller screens. The classes used are "sublime-grid-5-15 sublime-grid-md-15-15".
-                        
-                    </h5>
-                </div>
-                
-                <div class="sublime-grid-5-15 sublime-grid-md-15-15">
-                    <h4 class="content docContent">Button system:</h4>
-                    
-                    <h5 class="content docContent">
-                        
-                        Buttons are very simple in SublimeCSS. Simply create an anchor elememt and apply the apropriate class. The options are:<br><br>
-                        <ul>
-                            
-                            <li>sublime-greyBtn -- a grey button</li>
-                            <li>sublime-yesBtn -- an affirmitive button</li>
-                            <li>sublime-noBtn -- a negitive button</li>
-                            <li>sublime-warningBtn -- an alarming button</li>
-                            
-                        </ul>
-                        
-                    </h5>
-                </div>
-                
             </div>
-            
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-4-15 gridExample">
+                    4-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-5-15 gridExample">
+                    5-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-6-15 gridExample">
+                    6-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-7-15 gridExample">
+                    7-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-8-15 gridExample">
+                    8-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-9-15 gridExample">
+                    9-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-10-15 gridExample">
+                    10-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-11-15 gridExample">
+                    11-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-12-15 gridExample">
+                    12-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-13-15 gridExample">
+                    13-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-14-15 gridExample">
+                    14-15
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-15-15 gridExample">
+                    15-15
+                </div>
+            </div>
+            <br>
+            <br>
+            <!--Responsive Grids:-->
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-5-15 sublime-grid-md-15-15 gridExample">
+                    Resopnsive Grids:
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-3-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+            </div>
+
+
+            <div class="sublime-gridRow">
+                <div class="sublime-grid-lg-5-15 sublime-grid-md-2-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-2-15 sublime-grid-md-4-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-4-15 sublime-grid-md-3-15 sublime-grid-sm-1-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-3-15 sublime-grid-md-1-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+
+
+                <div class="sublime-grid-lg-1-15 sublime-grid-md-5-15 sublime-grid-sm-7-15 gridExample">
+                    ...
+                </div>
+            </div>
         </div>
-        <div class="footer">Made with SublimeCSS.</div>
-        
-    </body>
-    
+
+
+        <div class="sublime-gridRow sublimeExample">
+            <div class="sublime-grid-15-15 gridExample">
+                Buttons:
+            </div>
+            <a class="sublime-yesBtn">Yes!</a> <a class="sublime-noBtn">No!</a> <a class="sublime-warningBtn">Warning!</a> <a class="sublime-greyBtn">Grey!</a>
+        </div>
+
+
+        <div class="documentation content sublime-gridRow">
+            <h3 class="content docContent sublime-grid-15-15">Documentation:</h3>
+
+
+            <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                <h4 class="content docContent">How to set up SublimeCSS:</h4>
+
+
+                <h5 class="content docContent">You can either click the "Download" link at the top of the page to download SublimeCSS, or you can simply link to it in the head of your document with the link shown at the top of the page. If you do choose to download it, then unzip the download, and move the SublimeCSS folder into your current project.</h5>
+            </div>
+
+
+            <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                <h4 class="content docContent">How does SublimeCSS work?</h4>
+
+
+                <h5 class="content docContent">To use SublimeCSS, simply apply the appropriate class to an element, and SublimeCSS will work it's magic!</h5>
+            </div>
+
+
+            <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                <h4 class="content docContent">What classes are avalible?</h4>
+
+
+                <h5 class="content docContent">Here is a compleat list of classes for V0.1. If you downloaded an older version, please head over to the "README.md" file supplied with your download. Note: SublimeCSS is forward compatible, so all older versions will always be suported, but may have less capability.</h5>
+            </div>
+
+
+            <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                <h4 class="content docContent">Grid system:</h4>
+
+
+                <h5 class="content docContent">sublime-gridRow creates a row for grids that can contain grid elements.<br>
+                <br>
+                sublime-grid-*-15 creates a column, where * is a number from 1 to 15.<br>
+                <br>
+                For example, sublime-grid-3-15 is a grid column that is 3/15ths the width of the screen.<br>
+                <br>
+                Note: all grids must be placed inside a sublime-gridRow div to function. Grids are designed to work with Div elements.<br>
+                <br>
+                Create responsive grids using media querys: for example, these documentation boxes are 5-15 on screens above md(medium), and 15-15 on smaller screens. The classes used are "sublime-grid-5-15 sublime-grid-md-15-15".</h5>
+            </div>
+
+
+            <div class="sublime-grid-5-15 sublime-grid-md-15-15">
+                <h4 class="content docContent">Button system:</h4>
+
+
+                <h5 class="content docContent">Buttons are very simple in SublimeCSS. Simply create an anchor elememt and apply the apropriate class. The options are:<br>
+                <br></h5>
+
+
+                <ul>
+                    <li>sublime-greyBtn -- a grey button</li>
+
+
+                    <li>sublime-yesBtn -- an affirmitive button</li>
+
+
+                    <li>sublime-noBtn -- a negitive button</li>
+
+
+                    <li>sublime-warningBtn -- an alarming button</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        Made with SublimeCSS.
+    </div>
+</body>
 </html>

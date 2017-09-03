@@ -71,7 +71,6 @@ table {
     text-align: center;
     line-height: 110%;
     color: #fff;
-    height: 100vh;
     box-sizing: content-box;
 }
 
@@ -81,20 +80,19 @@ table {
     line-height: 130%;
 }
 
-.innerlink
-{
-    width: 90vw !important;
-    font-size: 1rem;
-    line-height: 150%;
-}
-
-
 .link
 {
     color: #fff;
     padding: 1%;
     display: inline-block;
     border-radius: 10px;
+    width: 90vw;
+    font-size: 0.7rem;
+    line-height: 150%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 1rem;
+    font-size: 1rem;
 }
 
 .content
@@ -168,10 +166,11 @@ h4.docContent
 
 @media screen and (max-width: 425px)
 {
-    .innerlink
+    .link
     {
         font-size: 0.7rem;
     }
+    
     .sitename
     {
         font-size: 1.5rem;
@@ -216,7 +215,6 @@ h4.docContent
         background-size: 110%;
         background-clip: border-box;
         background-attachment: fixed;
-        width: 100vw;
     }
     .siteName::first-line
     {
@@ -231,8 +229,4 @@ h4.docContent
     color: #fff;
     font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     padding: 1rem;
-}
-
-.maincontent {
-
 }
