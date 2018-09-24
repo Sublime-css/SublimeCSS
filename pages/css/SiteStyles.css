@@ -1,5 +1,7 @@
 /*The Site Styles for the SublimeCSS website*/
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,7 +19,8 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers*/
@@ -52,6 +55,11 @@ table {
     max-width: 100vw !important;
     box-sizing: border-box !important;
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 .pageHeader
@@ -63,7 +71,6 @@ table {
 
 .siteNameMain
 {
-    font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
     font-size: 2rem;
     padding: 0px 1rem;
     padding-top: 5rem;
@@ -73,7 +80,6 @@ table {
     text-align: center;
     line-height: 110%;
     color: #fff;
-    overflow-y: hidden;
     
 }
 
@@ -105,7 +111,7 @@ table {
 
 .content
 {
-    font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
