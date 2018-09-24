@@ -244,7 +244,7 @@ h4.docContent
 {
     font-size: 1rem;
     color: #fff;
-    font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 1rem;
 }
 
@@ -254,7 +254,7 @@ h4.docContent
     text-decoration: none;
     padding: 1% 2%;
     color: #fff;
-    font-family: -apple-system, 'avenir next', roboto, ubuntu, 'helvetica neue', helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     transition-property: background-color;
     transition-duration: 0.5s;
